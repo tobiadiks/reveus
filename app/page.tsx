@@ -12,8 +12,8 @@ export default function Home() {
           <Image style={{ objectFit: 'cover' }} alt='logo.png' height={164} width={360} src={'/logo.png'} />
         </div>
         <div className='bg-gray-200 py-2 px-4 mb-4  rounded-full flex w-fit'>
-          <PopupButton className='bg-[#EFFF72] cursor-pointer rounded-full  py-2 px-4 font-bold text-center' id='K3NgNN31'>Book demo</PopupButton>
-          <PopupButton className=' rounded-full  py-2 px-4 font-bold text-center ml-2 cursor-pointer' id='WIWjg02L'>Join the commuinity</PopupButton>
+          <PopupButton className='bg-[#EFFF72] cursor-pointer rounded-full  py-2 px-4 font-bold text-center md:text-sm' id='K3NgNN31'>Book demo</PopupButton>
+          <PopupButton className=' rounded-full  py-2 px-4 font-bold text-center ml-2 cursor-pointer md:text-sm' id='WIWjg02L'>Join the commuinity</PopupButton>
 
         </div>
 
@@ -25,7 +25,7 @@ export default function Home() {
 
       </div>
       <div className='bg-[#124E3C] opacity-100 relative md:w-1/2 h-[90vh] min-h-[90vh] md:h-[90vh] snap-start rounded-xl py-4 px-8'>
-        <div className=' h-5/6 w-full relative '>
+        <div className=' md:h-5/6 h-4/6 w-full relative '>
           <Image fill className='md:object-fill object-fit-cover' alt='bubble' src={'/bubble.png'} />
         </div>
         <div className='text-white mt-4'>
@@ -36,7 +36,7 @@ export default function Home() {
         <div className='text-white mb-4'>
           From indie-makers to big corps. Get feedback private or public.
         </div>
-        <div className=' h-5/6  w-full relative '>
+        <div className=' md:h-5/6   h-4/6 w-full relative '>
           <Image fill className='md:object-fill object-fit-cover'  alt='lady' src={'/lady.png'} />
         </div>
       </div>
@@ -44,11 +44,11 @@ export default function Home() {
         <div className='text-white mb-4'>
           Test with vetted personas for your product.
         </div>
-        <div className=' h-5/6  w-full relative '>
+        <div className=' md:h-5/6 h-4/6 w-full relative '>
           <Image  fill className='md:object-fill object-fit-cover' alt='carrer' src={'/carrer.png'} />
         </div>
       </div>
-      <div className='bg-[#124E3C] opacity-100 relative md:w-1/2 h-[90vh] min-h-[90vh] md:h-[90vh] snap-start rounded-xl py-4 px-8'>
+      <div className='bg-[#124E3C] opacity-100 relative md:w-1/2 h-[70vh] min-h-[90vh] md:h-[90vh] snap-start rounded-xl py-4 px-8'>
         <Image fill className='md:object-fill object-fit-cover' alt='bt' src={'/bt.png'} />
       </div>
       <div className=' h-4 md:w-1/2 my-4 text-center text-white text-sm'>Made with  ❤️ &  💫</div>
