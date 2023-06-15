@@ -7,7 +7,7 @@ const ibarra_real_nova = Ibarra_Real_Nova({ weight: '500', subsets: ['latin'] })
 export default function Home() {
   return (
     <main className="md:grid snap-y md:gap-y-4 space-y-4 md:space-y-0 overflow-y-auto snap-mandatory max-h-screen grid-rows-1 p-4 py-8  md:p-8 relative  bg-[#003929]">
-      <div className=' md:hidden w-full snap-start   py-4'>
+      <div className=' md:hidden w-full snap-start    pt-8'>
         <div className=' h-16 w-32 mt-8 mb-8'>
           <Image style={{ objectFit: 'cover' }} alt='logo.png' height={164} width={360} src={'/logo.png'} />
         </div>
