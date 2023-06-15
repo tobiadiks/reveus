@@ -6,14 +6,14 @@ import { PopupButton } from '@typeform/embed-react'
 const ibarra_real_nova = Ibarra_Real_Nova({ weight: '500', subsets: ['latin'] })
 export default function Home() {
   return (
-    <main className="md:grid snap-y md:gap-y-4 space-y-4 md:space-y-0 overflow-y-auto snap-mandatory max-h-screen grid-rows-1   p-8 relative  bg-[#003929]">
+    <main className="md:grid snap-y md:gap-y-4 space-y-4 md:space-y-0 overflow-y-auto snap-mandatory max-h-screen grid-rows-1 p-4  md:p-8 relative  bg-[#003929]">
       <div className=' md:hidden w-full snap-start   py-4'>
         <div className=' h-16 w-32 mt-8 mb-8'>
           <Image style={{ objectFit: 'cover' }} alt='logo.png' height={164} width={360} src={'/logo.png'} />
         </div>
         <div className='bg-gray-200 py-2 px-4 mb-4  rounded-full flex w-fit'>
-          <PopupButton className='bg-[#EFFF72] cursor-pointer rounded-full  py-2 px-4 font-bold text-center md:text-sm' id='K3NgNN31'>Book demo</PopupButton>
-          <PopupButton className=' rounded-full  py-2 px-4 font-bold text-center ml-2 cursor-pointer md:text-sm' id='WIWjg02L'>Join the commuinity</PopupButton>
+          <PopupButton className='bg-[#EFFF72] cursor-pointer rounded-full  py-2 px-4 font-bold text-center text-sm' id='K3NgNN31'>Book demo</PopupButton>
+          <PopupButton className=' rounded-full  py-2 px-4 font-bold text-center ml-2 cursor-pointer text-sm' id='WIWjg02L'>Join the commuinity</PopupButton>
 
         </div>
 
