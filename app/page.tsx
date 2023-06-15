@@ -12,7 +12,7 @@ export default function Home() {
           <Image style={{ objectFit: 'cover' }} alt='logo.png' height={164} width={360} src={'/logo.png'} />
         </div>
         <div className='bg-gray-200 py-2 px-4 mb-4  rounded-full flex w-fit'>
-          <PopupButton className='bg-yellow-700 cursor-pointer rounded-full  py-2 px-2 font-bold text-center text-xs' id='K3NgNN31'>Book demo</PopupButton>
+          <PopupButton className='bg-yellow-400 cursor-pointer rounded-full  py-2 px-2 font-bold text-center text-xs' id='K3NgNN31'>Book demo</PopupButton>
           <PopupButton className=' rounded-full  py-2 px-2 font-bold text-center ml-2 cursor-pointer text-xs' id='WIWjg02L'>Join the commuinity</PopupButton>
 
         </div>
@@ -57,7 +57,7 @@ export default function Home() {
           <Image style={{ objectFit: 'cover' }} alt='logo.png' height={164} width={360} src={'/logo.png'} />
         </div>
         <div className='bg-gray-200 py-2 px-4 ml-8 rounded-full flex w-fit'>
-          <PopupButton className='bg-yellow-700 cursor-pointer rounded-full  py-2 px-4 font-bold text-center' id='K3NgNN31'>Book demo</PopupButton>
+          <PopupButton className='bg-yellow-400 cursor-pointer rounded-full  py-2 px-4 font-bold text-center' id='K3NgNN31'>Book demo</PopupButton>
           <PopupButton className=' rounded-full  py-2 px-4 font-bold text-center ml-2 cursor-pointer' id='WIWjg02L'>Join the commuinity</PopupButton>
 
         </div>
